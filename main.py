@@ -10,7 +10,7 @@ data = []
 
 print(main)
 for i in sorted(main):
-    print('ini untuk i',i)
+    print('>> item i',i)
     image = Image.open(r'{}/{}'.format(man_input,str(i)))
     im = image.convert('RGB')
     data.append(im)
