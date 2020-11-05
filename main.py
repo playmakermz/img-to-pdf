@@ -3,8 +3,8 @@ from os.path import isfile, join
 import os
 from PIL import Image
 
-man_input = input('masukan nama folder tujuan: ')
-nama_pdf = input('masukan tempat dan nama untuk buku ini!: ')
+man_input = input('destination folder name: : ')
+nama_pdf = input('name for this pdf: ')
 main = listdir(r'{}'.format(man_input))
 data = []
 
